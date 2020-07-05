@@ -9,7 +9,7 @@ public class DistText_Debug : UdonSharpBehaviour
 {
     public bool isTip;
     Text text;
-    public VelocityEstimator velocityEstimator;
+    public SwingEstimator swingEstimator;
 
     void Start()
     {
@@ -22,11 +22,11 @@ public class DistText_Debug : UdonSharpBehaviour
         {
             if (isTip)
             {
-                text.text = ((float)velocityEstimator.GetProgramVariable("movingDistTip")).ToString();
+                text.text = ((float)swingEstimator.GetProgramVariable("movingDistTip")).ToString();
             }
             else
             {
-                text.text = ((float)velocityEstimator.GetProgramVariable("movingDistHandle")).ToString();
+                text.text = ((float)swingEstimator.GetProgramVariable("movingDistHandle")).ToString();
             }
         }
     }

@@ -10,24 +10,24 @@ public class SetEffectiveDistSlider_Debug : UdonSharpBehaviour
     public Slider slider;
     public Text text;
 
-    public VelocityEstimator velocityEstimator;
+    public SwingEstimator swingEstimator;
 
     private void Start()
     {
-        slider.value = isTip ? velocityEstimator.effectiveDistTip : velocityEstimator.effectiveDistHandle;
+        slider.value = isTip ? swingEstimator.effectiveDistTip : swingEstimator.effectiveDistHandle;
     }
 
     private void Update()
     {
         if (isTip)
         {
-            velocityEstimator.effectiveDistTip = slider.value;
-            text.text = velocityEstimator.effectiveDistTip.ToString();
+            swingEstimator.effectiveDistTip = slider.value;
+            text.text = swingEstimator.effectiveDistTip.ToString();
         }
         else
         {
-            velocityEstimator.effectiveDistHandle = slider.value;
-            text.text = velocityEstimator.effectiveDistHandle.ToString();
+            swingEstimator.effectiveDistHandle = slider.value;
+            text.text = swingEstimator.effectiveDistHandle.ToString();
         }
     }
 }

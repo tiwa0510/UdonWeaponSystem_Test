@@ -10,24 +10,24 @@ public class SetStaticSpeedSlider_Debug : UdonSharpBehaviour
     public Slider slider;
     public Text text;
 
-    public VelocityEstimator velocityEstimator;
+    public SwingEstimator swingEstimator;
 
     private void Start()
     {
-        slider.value = isTip ? velocityEstimator.staticSpeedTip : velocityEstimator.staticSpeedHandle;
+        slider.value = isTip ? swingEstimator.staticSpeedTip : swingEstimator.staticSpeedHandle;
     }
 
     private void Update()
     {
         if (isTip)
         {
-            velocityEstimator.staticSpeedTip = slider.value;
-            text.text = velocityEstimator.staticSpeedTip.ToString();
+            swingEstimator.staticSpeedTip = slider.value;
+            text.text = swingEstimator.staticSpeedTip.ToString();
         }
         else
         {
-            velocityEstimator.staticSpeedHandle = slider.value;
-            text.text = velocityEstimator.staticSpeedHandle.ToString();
+            swingEstimator.staticSpeedHandle = slider.value;
+            text.text = swingEstimator.staticSpeedHandle.ToString();
         }
     }
 }

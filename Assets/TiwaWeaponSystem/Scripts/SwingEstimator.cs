@@ -4,24 +4,27 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 
-public class VelocityEstimator : UdonSharpBehaviour
+public class SwingEstimator : UdonSharpBehaviour
 {
+    // 測定点のオブジェクト
     public GameObject objTip;
     public GameObject objHandle;
 
-    public int velocitySampleFreams = 5;
+    public int velocitySampleFreams = 5; // サンプル数
     public int attackSampleFreams = 5;
 
-    public float attackSpeedTip = 20f;
-    public float staticSpeedTip = 10f;
-    public float effectiveDistTip = 5f;
+    // MEMO: 動作確認した結果良い感じだった値をデフォルトにしておく。測定点オブジェクトの位置も同様
+    public float attackSpeedTip = 105f;
+    public float staticSpeedTip = 50f;
+    public float effectiveDistTip = 3f;
 
-    public float attackSpeedHandle = 20f;
-    public float staticSpeedHandle = 10f;
-    public float effectiveDistHandle = 5f;
+    public float attackSpeedHandle = 150f;
+    public float staticSpeedHandle = 50f;
+    public float effectiveDistHandle = 0.55f;
 
     public GameObject Attacker;
 
+    // ローカル変数をできるだけ使わない
     int i;
     int sampleCount;
     int attackSampleCount;
@@ -42,8 +45,6 @@ public class VelocityEstimator : UdonSharpBehaviour
     float velocityScalarHandle;
     float movingDistHandle;
 
-    // Handle
-
     private void Start()
     {
         velocitySamplesTip = new Vector3[velocitySampleFreams];
@@ -53,12 +54,13 @@ public class VelocityEstimator : UdonSharpBehaviour
     }
 
     // 参考: https://github.com/wacki/Unity-VRInputModule/blob/master/Assets/SteamVR/InteractionSystem/Core/Scripts/VelocityEstimator.cs
+    // できるだけ関数呼び出しをしない
     private void Update()
     {
         sampleCount++;
 
         // Tip
-        // 速度取得
+        // 速度計算
         velocitySamplesTip[sampleCount % velocitySamplesTip.Length] = (1.0f / Time.deltaTime) * (objTip.transform.position - prevPositionTip);
         prevPositionTip = objTip.transform.position;
 
@@ -76,11 +78,11 @@ public class VelocityEstimator : UdonSharpBehaviour
             startPositionTip = objTip.transform.position;
         }
 
-        // 移動距離
+        // スイング距離
         movingDistTip = (objTip.transform.position - startPositionTip).sqrMagnitude;
 
         // Handle
-        // 速度取得
+        // 速度計算
         velocitySamplesHandle[sampleCount % velocitySamplesHandle.Length] = (1.0f / Time.deltaTime) * (objHandle.transform.position - prevPositionHandle);
         prevPositionHandle = objHandle.transform.position;
 
@@ -98,7 +100,7 @@ public class VelocityEstimator : UdonSharpBehaviour
             startPositionHandle = objHandle.transform.position;
         }
 
-        // 移動距離
+        // スイング距離
         movingDistHandle = (objHandle.transform.position - startPositionHandle).sqrMagnitude;
 
         // 速度と加速度と静止状態からの移動距離で判定

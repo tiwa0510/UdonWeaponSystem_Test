@@ -5,5 +5,5 @@ using VRC.Udon;
 
 public class WeaponSystem : UdonSharpBehaviour
 {
-
+    // TODO: OnInteract, OnPickup‚ÌƒCƒxƒ“ƒgˆ—
 }

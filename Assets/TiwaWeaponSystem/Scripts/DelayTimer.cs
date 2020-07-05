@@ -6,6 +6,7 @@ using VRC.Udon;
 
 public class DelayTimer : UdonSharpBehaviour
 {
+    // MEMO: UdonŒü‚¯‚ÌÅ“K‰»‚ğl‚¦‚Ä‚¢‚È‚¢‚Ì‚Å‚à‚¤‚¿‚å‚Á‚Æ—p“r‚ği‚Á‚ÄŠÈ—ª‰»‚µ‚½‚¢
     int capacity;
 
     UdonSharpBehaviour[] targetUdons;

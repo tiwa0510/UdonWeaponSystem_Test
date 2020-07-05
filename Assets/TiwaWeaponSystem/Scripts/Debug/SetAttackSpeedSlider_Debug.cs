@@ -10,23 +10,23 @@ public class SetAttackSpeedSlider_Debug : UdonSharpBehaviour
     public Slider slider;
     public Text text;
 
-    public VelocityEstimator velocityEstimator;
+    public SwingEstimator swingEstimator;
 
     private void Start()
     {
-        slider.value = isTip ? velocityEstimator.attackSpeedTip : velocityEstimator.attackSpeedHandle;
+        slider.value = isTip ? swingEstimator.attackSpeedTip : swingEstimator.attackSpeedHandle;
     }
     private void Update()
     {
         if (isTip)
         {
-            velocityEstimator.attackSpeedTip = slider.value;
-            text.text = velocityEstimator.attackSpeedTip.ToString();
+            swingEstimator.attackSpeedTip = slider.value;
+            text.text = swingEstimator.attackSpeedTip.ToString();
         }
         else
         {
-            velocityEstimator.attackSpeedHandle = slider.value;
-            text.text = velocityEstimator.attackSpeedHandle.ToString();
+            swingEstimator.attackSpeedHandle = slider.value;
+            text.text = swingEstimator.attackSpeedHandle.ToString();
         }
     }
 }

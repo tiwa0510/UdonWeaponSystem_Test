@@ -9,15 +9,15 @@ public class SetAttackSampleFreamsSlider_Debug : UdonSharpBehaviour
     public Slider slider;
     public Text text;
 
-    public VelocityEstimator velocityEstimator;
+    public SwingEstimator swingEstimator;
 
     private void Start()
     {
-        slider.value = velocityEstimator.attackSampleFreams;
+        slider.value = swingEstimator.attackSampleFreams;
     }
     private void Update()
     {
-        velocityEstimator.attackSampleFreams = (int)slider.value;
-        text.text = velocityEstimator.attackSampleFreams.ToString();
+        swingEstimator.attackSampleFreams = (int)slider.value;
+        text.text = swingEstimator.attackSampleFreams.ToString();
     }
 }

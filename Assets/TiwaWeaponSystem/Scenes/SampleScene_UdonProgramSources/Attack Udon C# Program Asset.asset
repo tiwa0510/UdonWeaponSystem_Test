@@ -150,29 +150,30 @@ MonoBehaviour:
     - startInstruction: 0
       endInstruction: -1
       startSourceChar: 107
-      endSourceChar: 134
+      endSourceChar: 183
       line: 6
       lineChar: 28
-      spanCodeSection: "UdonSharpBehaviour\r\n{\r\n    "
+      spanCodeSection: "UdonSharpBehaviour\r\n{\r\n    // MEMO: \uFFFDU\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0242\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDNPCSystem\uFFFD\u0253n\uFFFD\uFFFDUdon\r\n
+        \   "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 134
-      endSourceChar: 141
-      line: 8
+      startSourceChar: 183
+      endSourceChar: 190
+      line: 9
       lineChar: 4
       spanCodeSection: 'public '
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 141
-      endSourceChar: 141
-      line: 8
+      startSourceChar: 190
+      endSourceChar: 190
+      line: 9
       lineChar: 11
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: 0
-      startSourceChar: 141
-      endSourceChar: 141
-      line: 8
+      startSourceChar: 190
+      endSourceChar: 190
+      line: 9
       lineChar: 11
       spanCodeSection: 
   hasInteractEvent: 0

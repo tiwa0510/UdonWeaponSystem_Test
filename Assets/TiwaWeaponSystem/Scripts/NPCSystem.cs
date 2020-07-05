@@ -6,6 +6,7 @@ using VRC.Udon;
 
 public class NPCSystem : UdonSharpBehaviour
 {
+    // MEMO: デバッグ用なので後でちゃんと作る
     DelayTimer thisTimer;
     Collider thisCollider;
     public MeshRenderer thisMeshRenderer;
@@ -16,7 +17,7 @@ public class NPCSystem : UdonSharpBehaviour
     {
         thisTimer = GetComponent<DelayTimer>();
         thisCollider = GetComponent<Collider>();
-        thisTimer.SetTimerCapacity(1);
+        thisTimer.SetTimerCapacity(1); // delayTimerを予約
 
         thisMeshRenderer.material = normalMaterial;
     }
