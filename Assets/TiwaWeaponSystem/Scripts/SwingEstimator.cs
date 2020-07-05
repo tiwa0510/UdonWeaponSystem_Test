@@ -14,9 +14,9 @@ public class SwingEstimator : UdonSharpBehaviour
     public int attackSampleFreams = 5;
 
     // MEMO: 動作確認した結果良い感じだった値をデフォルトにしておく。測定点オブジェクトの位置も同様
-    public float attackSpeedTip = 105f;
+    public float attackSpeedTip = 50f;
     public float staticSpeedTip = 50f;
-    public float effectiveDistTip = 3f;
+    public float effectiveDistTip = 1.5f;
 
     public float attackSpeedHandle = 150f;
     public float staticSpeedHandle = 50f;

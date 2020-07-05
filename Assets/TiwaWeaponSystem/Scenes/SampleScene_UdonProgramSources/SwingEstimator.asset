@@ -76,7 +76,7 @@ MonoBehaviour:
     = 5; // \uFFFDT\uFFFD\uFFFD\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\r\n        \r\n         #
     public int attackSampleFreams = 5;\r\n        \r\n         # public float attackSpeedTip
     = 105f;\r\n        \r\n         # public float staticSpeedTip = 50f;\r\n        \r\n
-    \        # public float effectiveDistTip = 3f;\r\n        \r\n         # public
+    \        # public float effectiveDistTip = 1.5f;\r\n        \r\n         # public
     float attackSpeedHandle = 150f;\r\n        \r\n         # public float staticSpeedHandle
     = 50f;\r\n        \r\n         # public float effectiveDistHandle = 0.55f;\r\n
     \       \r\n         # public GameObject Attacker;\r\n        \r\n         # int
@@ -572,659 +572,659 @@ MonoBehaviour:
     - startInstruction: 0
       endInstruction: -1
       startSourceChar: 507
-      endSourceChar: 543
+      endSourceChar: 545
       line: 18
       lineChar: 11
-      spanCodeSection: "float effectiveDistTip = 3f;\r\n\r\n    "
+      spanCodeSection: "float effectiveDistTip = 1.5f;\r\n\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 543
-      endSourceChar: 550
+      startSourceChar: 545
+      endSourceChar: 552
       line: 20
       lineChar: 4
       spanCodeSection: 'public '
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 550
-      endSourceChar: 550
+      startSourceChar: 552
+      endSourceChar: 552
       line: 20
       lineChar: 11
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 550
-      endSourceChar: 587
+      startSourceChar: 552
+      endSourceChar: 589
       line: 20
       lineChar: 11
       spanCodeSection: "float attackSpeedHandle = 150f;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 587
-      endSourceChar: 594
+      startSourceChar: 589
+      endSourceChar: 596
       line: 21
       lineChar: 4
       spanCodeSection: 'public '
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 594
-      endSourceChar: 594
+      startSourceChar: 596
+      endSourceChar: 596
       line: 21
       lineChar: 11
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 594
-      endSourceChar: 630
+      startSourceChar: 596
+      endSourceChar: 632
       line: 21
       lineChar: 11
       spanCodeSection: "float staticSpeedHandle = 50f;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 630
-      endSourceChar: 637
+      startSourceChar: 632
+      endSourceChar: 639
       line: 22
       lineChar: 4
       spanCodeSection: 'public '
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 637
-      endSourceChar: 637
+      startSourceChar: 639
+      endSourceChar: 639
       line: 22
       lineChar: 11
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 637
-      endSourceChar: 679
+      startSourceChar: 639
+      endSourceChar: 681
       line: 22
       lineChar: 11
       spanCodeSection: "float effectiveDistHandle = 0.55f;\r\n\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 679
-      endSourceChar: 686
+      startSourceChar: 681
+      endSourceChar: 688
       line: 24
       lineChar: 4
       spanCodeSection: 'public '
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 686
-      endSourceChar: 686
+      startSourceChar: 688
+      endSourceChar: 688
       line: 24
       lineChar: 11
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 686
-      endSourceChar: 748
+      startSourceChar: 688
+      endSourceChar: 750
       line: 24
       lineChar: 11
       spanCodeSection: "GameObject Attacker;\r\n\r\n    // \uFFFD\uFFFD\uFFFD[\uFFFDJ\uFFFD\uFFFD\uFFFD\u03D0\uFFFD\uFFFD\uFFFD\u0142\uFFFD\uFFFD\u90BE\uFFFD\uFFFD\uFFFDg\uFFFD\uFFFD\u0202\uFFFD\r\n
         \   "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 748
-      endSourceChar: 748
+      startSourceChar: 750
+      endSourceChar: 750
       line: 27
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 748
-      endSourceChar: 748
+      startSourceChar: 750
+      endSourceChar: 750
       line: 27
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 748
-      endSourceChar: 760
+      startSourceChar: 750
+      endSourceChar: 762
       line: 27
       lineChar: 4
       spanCodeSection: "int i;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 760
-      endSourceChar: 760
+      startSourceChar: 762
+      endSourceChar: 762
       line: 28
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 760
-      endSourceChar: 760
+      startSourceChar: 762
+      endSourceChar: 762
       line: 28
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 760
-      endSourceChar: 782
+      startSourceChar: 762
+      endSourceChar: 784
       line: 28
       lineChar: 4
       spanCodeSection: "int sampleCount;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 782
-      endSourceChar: 782
+      startSourceChar: 784
+      endSourceChar: 784
       line: 29
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 782
-      endSourceChar: 782
+      startSourceChar: 784
+      endSourceChar: 784
       line: 29
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 782
-      endSourceChar: 824
+      startSourceChar: 784
+      endSourceChar: 826
       line: 29
       lineChar: 4
       spanCodeSection: "int attackSampleCount;\r\n\r\n    // Tip\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 824
-      endSourceChar: 824
+      startSourceChar: 826
+      endSourceChar: 826
       line: 32
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 824
-      endSourceChar: 824
+      startSourceChar: 826
+      endSourceChar: 826
       line: 32
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 824
-      endSourceChar: 854
+      startSourceChar: 826
+      endSourceChar: 856
       line: 32
       lineChar: 4
       spanCodeSection: "Vector3 prevPositionTip;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 854
-      endSourceChar: 854
+      startSourceChar: 856
+      endSourceChar: 856
       line: 33
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 854
-      endSourceChar: 854
+      startSourceChar: 856
+      endSourceChar: 856
       line: 33
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 854
-      endSourceChar: 885
+      startSourceChar: 856
+      endSourceChar: 887
       line: 33
       lineChar: 4
       spanCodeSection: "Vector3 startPositionTip;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 885
-      endSourceChar: 885
+      startSourceChar: 887
+      endSourceChar: 887
       line: 34
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 885
-      endSourceChar: 885
+      startSourceChar: 887
+      endSourceChar: 887
       line: 34
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 885
-      endSourceChar: 885
+      startSourceChar: 887
+      endSourceChar: 887
       line: 34
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 885
-      endSourceChar: 920
+      startSourceChar: 887
+      endSourceChar: 922
       line: 34
       lineChar: 4
       spanCodeSection: "Vector3[] velocitySamplesTip;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 920
-      endSourceChar: 920
+      startSourceChar: 922
+      endSourceChar: 922
       line: 35
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 920
-      endSourceChar: 920
+      startSourceChar: 922
+      endSourceChar: 922
       line: 35
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 920
-      endSourceChar: 946
+      startSourceChar: 922
+      endSourceChar: 948
       line: 35
       lineChar: 4
       spanCodeSection: "Vector3 velocityTip;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 946
-      endSourceChar: 946
+      startSourceChar: 948
+      endSourceChar: 948
       line: 36
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 946
-      endSourceChar: 946
+      startSourceChar: 948
+      endSourceChar: 948
       line: 36
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 946
-      endSourceChar: 976
+      startSourceChar: 948
+      endSourceChar: 978
       line: 36
       lineChar: 4
       spanCodeSection: "float velocityScalarTip;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 976
-      endSourceChar: 976
+      startSourceChar: 978
+      endSourceChar: 978
       line: 37
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 976
-      endSourceChar: 976
+      startSourceChar: 978
+      endSourceChar: 978
       line: 37
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 976
-      endSourceChar: 1019
+      startSourceChar: 978
+      endSourceChar: 1021
       line: 37
       lineChar: 4
       spanCodeSection: "float movingDistTip;\r\n\r\n    // Handle\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1019
-      endSourceChar: 1019
+      startSourceChar: 1021
+      endSourceChar: 1021
       line: 40
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1019
-      endSourceChar: 1019
+      startSourceChar: 1021
+      endSourceChar: 1021
       line: 40
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1019
-      endSourceChar: 1052
+      startSourceChar: 1021
+      endSourceChar: 1054
       line: 40
       lineChar: 4
       spanCodeSection: "Vector3 prevPositionHandle;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1052
-      endSourceChar: 1052
+      startSourceChar: 1054
+      endSourceChar: 1054
       line: 41
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1052
-      endSourceChar: 1052
+      startSourceChar: 1054
+      endSourceChar: 1054
       line: 41
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1052
-      endSourceChar: 1086
+      startSourceChar: 1054
+      endSourceChar: 1088
       line: 41
       lineChar: 4
       spanCodeSection: "Vector3 startPositionHandle;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1086
-      endSourceChar: 1086
+      startSourceChar: 1088
+      endSourceChar: 1088
       line: 42
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1086
-      endSourceChar: 1086
+      startSourceChar: 1088
+      endSourceChar: 1088
       line: 42
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1086
-      endSourceChar: 1086
+      startSourceChar: 1088
+      endSourceChar: 1088
       line: 42
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1086
-      endSourceChar: 1124
+      startSourceChar: 1088
+      endSourceChar: 1126
       line: 42
       lineChar: 4
       spanCodeSection: "Vector3[] velocitySamplesHandle;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1124
-      endSourceChar: 1124
+      startSourceChar: 1126
+      endSourceChar: 1126
       line: 43
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1124
-      endSourceChar: 1124
+      startSourceChar: 1126
+      endSourceChar: 1126
       line: 43
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1124
-      endSourceChar: 1153
+      startSourceChar: 1126
+      endSourceChar: 1155
       line: 43
       lineChar: 4
       spanCodeSection: "Vector3 velocityHandle;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1153
-      endSourceChar: 1153
+      startSourceChar: 1155
+      endSourceChar: 1155
       line: 44
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1153
-      endSourceChar: 1153
+      startSourceChar: 1155
+      endSourceChar: 1155
       line: 44
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1153
-      endSourceChar: 1186
+      startSourceChar: 1155
+      endSourceChar: 1188
       line: 44
       lineChar: 4
       spanCodeSection: "float velocityScalarHandle;\r\n    "
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1186
-      endSourceChar: 1186
+      startSourceChar: 1188
+      endSourceChar: 1188
       line: 45
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1186
-      endSourceChar: 1186
+      startSourceChar: 1188
+      endSourceChar: 1188
       line: 45
       lineChar: 4
       spanCodeSection: 
     - startInstruction: 0
       endInstruction: -1
-      startSourceChar: 1186
-      endSourceChar: 1217
+      startSourceChar: 1188
+      endSourceChar: 1219
       line: 45
       lineChar: 4
       spanCodeSection: "float movingDistHandle;\r\n\r\n    "
     - startInstruction: 0
       endInstruction: 7
-      startSourceChar: 1217
-      endSourceChar: 1243
+      startSourceChar: 1219
+      endSourceChar: 1245
       line: 47
       lineChar: 4
       spanCodeSection: "private void Start()\r\n    "
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 1243
-      endSourceChar: 1254
+      startSourceChar: 1245
+      endSourceChar: 1256
       line: 48
       lineChar: 4
       spanCodeSection: "{\r\n        "
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 1254
-      endSourceChar: 1254
+      startSourceChar: 1256
+      endSourceChar: 1256
       line: 49
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 1254
-      endSourceChar: 1254
+      startSourceChar: 1256
+      endSourceChar: 1256
       line: 49
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 1254
-      endSourceChar: 1275
+      startSourceChar: 1256
+      endSourceChar: 1277
       line: 49
       lineChar: 8
       spanCodeSection: 'velocitySamplesTip = '
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 1275
-      endSourceChar: 1279
+      startSourceChar: 1277
+      endSourceChar: 1281
       line: 49
       lineChar: 29
       spanCodeSection: 'new '
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 1279
-      endSourceChar: 1279
+      startSourceChar: 1281
+      endSourceChar: 1281
       line: 49
       lineChar: 33
       spanCodeSection: 
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 1279
-      endSourceChar: 1286
+      startSourceChar: 1281
+      endSourceChar: 1288
       line: 49
       lineChar: 33
       spanCodeSection: Vector3
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 1286
-      endSourceChar: 1287
+      startSourceChar: 1288
+      endSourceChar: 1289
       line: 49
       lineChar: 40
       spanCodeSection: '['
     - startInstruction: 8
       endInstruction: 31
-      startSourceChar: 1287
-      endSourceChar: 1319
+      startSourceChar: 1289
+      endSourceChar: 1321
       line: 49
       lineChar: 41
       spanCodeSection: "velocitySampleFreams];\r\n        "
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 1319
-      endSourceChar: 1319
+      startSourceChar: 1321
+      endSourceChar: 1321
       line: 50
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 1319
-      endSourceChar: 1319
+      startSourceChar: 1321
+      endSourceChar: 1321
       line: 50
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 1319
-      endSourceChar: 1343
+      startSourceChar: 1321
+      endSourceChar: 1345
       line: 50
       lineChar: 8
       spanCodeSection: 'velocitySamplesHandle = '
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 1343
-      endSourceChar: 1347
+      startSourceChar: 1345
+      endSourceChar: 1349
       line: 50
       lineChar: 32
       spanCodeSection: 'new '
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 1347
-      endSourceChar: 1347
+      startSourceChar: 1349
+      endSourceChar: 1349
       line: 50
       lineChar: 36
       spanCodeSection: 
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 1347
-      endSourceChar: 1354
+      startSourceChar: 1349
+      endSourceChar: 1356
       line: 50
       lineChar: 36
       spanCodeSection: Vector3
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 1354
-      endSourceChar: 1355
+      startSourceChar: 1356
+      endSourceChar: 1357
       line: 50
       lineChar: 43
       spanCodeSection: '['
     - startInstruction: 32
       endInstruction: 55
-      startSourceChar: 1355
-      endSourceChar: 1387
+      startSourceChar: 1357
+      endSourceChar: 1389
       line: 50
       lineChar: 44
       spanCodeSection: "velocitySampleFreams];\r\n        "
     - startInstruction: 56
       endInstruction: 55
-      startSourceChar: 1387
-      endSourceChar: 1387
+      startSourceChar: 1389
+      endSourceChar: 1389
       line: 51
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 56
       endInstruction: 55
-      startSourceChar: 1387
-      endSourceChar: 1387
+      startSourceChar: 1389
+      endSourceChar: 1389
       line: 51
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 56
       endInstruction: 55
-      startSourceChar: 1387
-      endSourceChar: 1405
+      startSourceChar: 1389
+      endSourceChar: 1407
       line: 51
       lineChar: 8
       spanCodeSection: 'prevPositionTip = '
     - startInstruction: 56
       endInstruction: 55
-      startSourceChar: 1405
-      endSourceChar: 1405
+      startSourceChar: 1407
+      endSourceChar: 1407
       line: 51
       lineChar: 26
       spanCodeSection: 
     - startInstruction: 56
       endInstruction: 55
-      startSourceChar: 1405
-      endSourceChar: 1405
+      startSourceChar: 1407
+      endSourceChar: 1407
       line: 51
       lineChar: 26
       spanCodeSection: 
     - startInstruction: 56
       endInstruction: 55
-      startSourceChar: 1405
-      endSourceChar: 1412
+      startSourceChar: 1407
+      endSourceChar: 1414
       line: 51
       lineChar: 26
       spanCodeSection: objTip.
     - startInstruction: 56
       endInstruction: 55
-      startSourceChar: 1412
-      endSourceChar: 1422
+      startSourceChar: 1414
+      endSourceChar: 1424
       line: 51
       lineChar: 33
       spanCodeSection: transform.
     - startInstruction: 56
       endInstruction: 103
-      startSourceChar: 1422
-      endSourceChar: 1441
+      startSourceChar: 1424
+      endSourceChar: 1443
       line: 51
       lineChar: 43
       spanCodeSection: "position;\r\n        "
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 1441
-      endSourceChar: 1441
+      startSourceChar: 1443
+      endSourceChar: 1443
       line: 52
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 1441
-      endSourceChar: 1441
+      startSourceChar: 1443
+      endSourceChar: 1443
       line: 52
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 1441
-      endSourceChar: 1462
+      startSourceChar: 1443
+      endSourceChar: 1464
       line: 52
       lineChar: 8
       spanCodeSection: 'prevPositionHandle = '
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 1462
-      endSourceChar: 1462
+      startSourceChar: 1464
+      endSourceChar: 1464
       line: 52
       lineChar: 29
       spanCodeSection: 
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 1462
-      endSourceChar: 1462
+      startSourceChar: 1464
+      endSourceChar: 1464
       line: 52
       lineChar: 29
       spanCodeSection: 
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 1462
-      endSourceChar: 1472
+      startSourceChar: 1464
+      endSourceChar: 1474
       line: 52
       lineChar: 29
       spanCodeSection: objHandle.
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 1472
-      endSourceChar: 1482
+      startSourceChar: 1474
+      endSourceChar: 1484
       line: 52
       lineChar: 39
       spanCodeSection: transform.
     - startInstruction: 104
       endInstruction: 171
-      startSourceChar: 1482
-      endSourceChar: 1675
+      startSourceChar: 1484
+      endSourceChar: 1677
       line: 52
       lineChar: 49
       spanCodeSection: "position;\r\n    }\r\n\r\n    // \uFFFDQ\uFFFDl: https://github.com/wacki/Unity-VRInputModule/blob/master/Assets/SteamVR/InteractionSystem/Core/Scripts/VelocityEstimator.cs\r\n
@@ -1232,1689 +1232,1689 @@ MonoBehaviour:
         \   "
     - startInstruction: 172
       endInstruction: 179
-      startSourceChar: 1675
-      endSourceChar: 1702
+      startSourceChar: 1677
+      endSourceChar: 1704
       line: 57
       lineChar: 4
       spanCodeSection: "private void Update()\r\n    "
     - startInstruction: 180
       endInstruction: 179
-      startSourceChar: 1702
-      endSourceChar: 1713
+      startSourceChar: 1704
+      endSourceChar: 1715
       line: 58
       lineChar: 4
       spanCodeSection: "{\r\n        "
     - startInstruction: 180
       endInstruction: 179
-      startSourceChar: 1713
-      endSourceChar: 1713
+      startSourceChar: 1715
+      endSourceChar: 1715
       line: 59
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 180
       endInstruction: 179
-      startSourceChar: 1713
-      endSourceChar: 1713
+      startSourceChar: 1715
+      endSourceChar: 1715
       line: 59
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 180
       endInstruction: 231
-      startSourceChar: 1713
-      endSourceChar: 1776
+      startSourceChar: 1715
+      endSourceChar: 1778
       line: 59
       lineChar: 8
       spanCodeSection: "sampleCount++;\r\n\r\n        // Tip\r\n        // \uFFFD\uFFFD\uFFFDx\uFFFDv\uFFFDZ\r\n
         \       "
     - startInstruction: 232
       endInstruction: 231
-      startSourceChar: 1776
-      endSourceChar: 1776
+      startSourceChar: 1778
+      endSourceChar: 1778
       line: 63
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 232
       endInstruction: 231
-      startSourceChar: 1776
-      endSourceChar: 1776
+      startSourceChar: 1778
+      endSourceChar: 1778
       line: 63
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 232
       endInstruction: 231
-      startSourceChar: 1776
-      endSourceChar: 1776
+      startSourceChar: 1778
+      endSourceChar: 1778
       line: 63
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 232
       endInstruction: 231
-      startSourceChar: 1776
-      endSourceChar: 1795
+      startSourceChar: 1778
+      endSourceChar: 1797
       line: 63
       lineChar: 8
       spanCodeSection: velocitySamplesTip[
     - startInstruction: 232
       endInstruction: 231
-      startSourceChar: 1795
-      endSourceChar: 1795
+      startSourceChar: 1797
+      endSourceChar: 1797
       line: 63
       lineChar: 27
       spanCodeSection: 
     - startInstruction: 232
       endInstruction: 231
-      startSourceChar: 1795
-      endSourceChar: 1795
+      startSourceChar: 1797
+      endSourceChar: 1797
       line: 63
       lineChar: 27
       spanCodeSection: 
     - startInstruction: 232
       endInstruction: 231
-      startSourceChar: 1795
-      endSourceChar: 1809
+      startSourceChar: 1797
+      endSourceChar: 1811
       line: 63
       lineChar: 27
       spanCodeSection: 'sampleCount % '
     - startInstruction: 232
       endInstruction: 231
-      startSourceChar: 1809
-      endSourceChar: 1809
+      startSourceChar: 1811
+      endSourceChar: 1811
       line: 63
       lineChar: 41
       spanCodeSection: 
     - startInstruction: 232
       endInstruction: 231
-      startSourceChar: 1809
-      endSourceChar: 1828
+      startSourceChar: 1811
+      endSourceChar: 1830
       line: 63
       lineChar: 41
       spanCodeSection: velocitySamplesTip.
     - startInstruction: 232
       endInstruction: 287
-      startSourceChar: 1828
-      endSourceChar: 1838
+      startSourceChar: 1830
+      endSourceChar: 1840
       line: 63
       lineChar: 60
       spanCodeSection: 'Length] = '
     - startInstruction: 288
       endInstruction: 287
-      startSourceChar: 1838
-      endSourceChar: 1838
+      startSourceChar: 1840
+      endSourceChar: 1840
       line: 63
       lineChar: 70
       spanCodeSection: 
     - startInstruction: 288
       endInstruction: 287
-      startSourceChar: 1838
-      endSourceChar: 1839
+      startSourceChar: 1840
+      endSourceChar: 1841
       line: 63
       lineChar: 70
       spanCodeSection: (
     - startInstruction: 288
       endInstruction: 287
-      startSourceChar: 1839
-      endSourceChar: 1839
+      startSourceChar: 1841
+      endSourceChar: 1841
       line: 63
       lineChar: 71
       spanCodeSection: 
     - startInstruction: 288
       endInstruction: 287
-      startSourceChar: 1839
-      endSourceChar: 1846
+      startSourceChar: 1841
+      endSourceChar: 1848
       line: 63
       lineChar: 71
       spanCodeSection: '1.0f / '
     - startInstruction: 288
       endInstruction: 287
-      startSourceChar: 1846
-      endSourceChar: 1846
+      startSourceChar: 1848
+      endSourceChar: 1848
       line: 63
       lineChar: 78
       spanCodeSection: 
     - startInstruction: 288
       endInstruction: 287
-      startSourceChar: 1846
-      endSourceChar: 1851
+      startSourceChar: 1848
+      endSourceChar: 1853
       line: 63
       lineChar: 78
       spanCodeSection: Time.
     - startInstruction: 288
       endInstruction: 335
-      startSourceChar: 1851
-      endSourceChar: 1864
+      startSourceChar: 1853
+      endSourceChar: 1866
       line: 63
       lineChar: 83
       spanCodeSection: 'deltaTime) * '
     - startInstruction: 336
       endInstruction: 335
-      startSourceChar: 1864
-      endSourceChar: 1865
+      startSourceChar: 1866
+      endSourceChar: 1867
       line: 63
       lineChar: 96
       spanCodeSection: (
     - startInstruction: 336
       endInstruction: 335
-      startSourceChar: 1865
-      endSourceChar: 1865
+      startSourceChar: 1867
+      endSourceChar: 1867
       line: 63
       lineChar: 97
       spanCodeSection: 
     - startInstruction: 336
       endInstruction: 335
-      startSourceChar: 1865
-      endSourceChar: 1865
+      startSourceChar: 1867
+      endSourceChar: 1867
       line: 63
       lineChar: 97
       spanCodeSection: 
     - startInstruction: 336
       endInstruction: 335
-      startSourceChar: 1865
-      endSourceChar: 1865
+      startSourceChar: 1867
+      endSourceChar: 1867
       line: 63
       lineChar: 97
       spanCodeSection: 
     - startInstruction: 336
       endInstruction: 335
-      startSourceChar: 1865
-      endSourceChar: 1872
+      startSourceChar: 1867
+      endSourceChar: 1874
       line: 63
       lineChar: 97
       spanCodeSection: objTip.
     - startInstruction: 336
       endInstruction: 335
-      startSourceChar: 1872
-      endSourceChar: 1882
+      startSourceChar: 1874
+      endSourceChar: 1884
       line: 63
       lineChar: 104
       spanCodeSection: transform.
     - startInstruction: 336
       endInstruction: 383
-      startSourceChar: 1882
-      endSourceChar: 1893
+      startSourceChar: 1884
+      endSourceChar: 1895
       line: 63
       lineChar: 114
       spanCodeSection: 'position - '
     - startInstruction: 384
       endInstruction: 479
-      startSourceChar: 1893
-      endSourceChar: 1920
+      startSourceChar: 1895
+      endSourceChar: 1922
       line: 63
       lineChar: 125
       spanCodeSection: "prevPositionTip);\r\n        "
     - startInstruction: 480
       endInstruction: 479
-      startSourceChar: 1920
-      endSourceChar: 1920
+      startSourceChar: 1922
+      endSourceChar: 1922
       line: 64
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 480
       endInstruction: 479
-      startSourceChar: 1920
-      endSourceChar: 1920
+      startSourceChar: 1922
+      endSourceChar: 1922
       line: 64
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 480
       endInstruction: 479
-      startSourceChar: 1920
-      endSourceChar: 1938
+      startSourceChar: 1922
+      endSourceChar: 1940
       line: 64
       lineChar: 8
       spanCodeSection: 'prevPositionTip = '
     - startInstruction: 480
       endInstruction: 479
-      startSourceChar: 1938
-      endSourceChar: 1938
+      startSourceChar: 1940
+      endSourceChar: 1940
       line: 64
       lineChar: 26
       spanCodeSection: 
     - startInstruction: 480
       endInstruction: 479
-      startSourceChar: 1938
-      endSourceChar: 1938
+      startSourceChar: 1940
+      endSourceChar: 1940
       line: 64
       lineChar: 26
       spanCodeSection: 
     - startInstruction: 480
       endInstruction: 479
-      startSourceChar: 1938
-      endSourceChar: 1945
+      startSourceChar: 1940
+      endSourceChar: 1947
       line: 64
       lineChar: 26
       spanCodeSection: objTip.
     - startInstruction: 480
       endInstruction: 479
-      startSourceChar: 1945
-      endSourceChar: 1955
+      startSourceChar: 1947
+      endSourceChar: 1957
       line: 64
       lineChar: 33
       spanCodeSection: transform.
     - startInstruction: 480
       endInstruction: 527
-      startSourceChar: 1955
-      endSourceChar: 1976
+      startSourceChar: 1957
+      endSourceChar: 1978
       line: 64
       lineChar: 43
       spanCodeSection: "position;\r\n\r\n        "
     - startInstruction: 528
       endInstruction: 527
-      startSourceChar: 1976
-      endSourceChar: 1976
+      startSourceChar: 1978
+      endSourceChar: 1978
       line: 66
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 528
       endInstruction: 527
-      startSourceChar: 1976
-      endSourceChar: 1976
+      startSourceChar: 1978
+      endSourceChar: 1978
       line: 66
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 528
       endInstruction: 527
-      startSourceChar: 1976
-      endSourceChar: 1990
+      startSourceChar: 1978
+      endSourceChar: 1992
       line: 66
       lineChar: 8
       spanCodeSection: 'velocityTip = '
     - startInstruction: 528
       endInstruction: 527
-      startSourceChar: 1990
-      endSourceChar: 1990
+      startSourceChar: 1992
+      endSourceChar: 1992
       line: 66
       lineChar: 22
       spanCodeSection: 
     - startInstruction: 528
       endInstruction: 527
-      startSourceChar: 1990
-      endSourceChar: 1998
+      startSourceChar: 1992
+      endSourceChar: 2000
       line: 66
       lineChar: 22
       spanCodeSection: Vector3.
     - startInstruction: 528
       endInstruction: 543
-      startSourceChar: 1998
-      endSourceChar: 2013
+      startSourceChar: 2000
+      endSourceChar: 2015
       line: 66
       lineChar: 30
       spanCodeSection: "zero;\r\n        "
     - startInstruction: 544
       endInstruction: 543
-      startSourceChar: 2013
-      endSourceChar: 2018
+      startSourceChar: 2015
+      endSourceChar: 2020
       line: 67
       lineChar: 8
       spanCodeSection: for (
     - startInstruction: 544
       endInstruction: 543
-      startSourceChar: 2018
-      endSourceChar: 2018
+      startSourceChar: 2020
+      endSourceChar: 2020
       line: 67
       lineChar: 13
       spanCodeSection: 
     - startInstruction: 544
       endInstruction: 543
-      startSourceChar: 2018
-      endSourceChar: 2022
+      startSourceChar: 2020
+      endSourceChar: 2024
       line: 67
       lineChar: 13
       spanCodeSection: 'i = '
     - startInstruction: 544
       endInstruction: 563
-      startSourceChar: 2022
-      endSourceChar: 2025
+      startSourceChar: 2024
+      endSourceChar: 2027
       line: 67
       lineChar: 17
       spanCodeSection: '0; '
     - startInstruction: 564
       endInstruction: 563
-      startSourceChar: 2025
-      endSourceChar: 2025
+      startSourceChar: 2027
+      endSourceChar: 2027
       line: 67
       lineChar: 20
       spanCodeSection: 
     - startInstruction: 564
       endInstruction: 563
-      startSourceChar: 2025
-      endSourceChar: 2029
+      startSourceChar: 2027
+      endSourceChar: 2031
       line: 67
       lineChar: 20
       spanCodeSection: 'i < '
     - startInstruction: 564
       endInstruction: 611
-      startSourceChar: 2029
-      endSourceChar: 2065
+      startSourceChar: 2031
+      endSourceChar: 2067
       line: 67
       lineChar: 24
       spanCodeSection: "velocitySampleFreams; i++)\r\n        "
     - startInstruction: 612
       endInstruction: 611
-      startSourceChar: 2065
-      endSourceChar: 2080
+      startSourceChar: 2067
+      endSourceChar: 2082
       line: 68
       lineChar: 8
       spanCodeSection: "{\r\n            "
     - startInstruction: 612
       endInstruction: 611
-      startSourceChar: 2080
-      endSourceChar: 2080
+      startSourceChar: 2082
+      endSourceChar: 2082
       line: 69
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 612
       endInstruction: 611
-      startSourceChar: 2080
-      endSourceChar: 2080
+      startSourceChar: 2082
+      endSourceChar: 2082
       line: 69
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 612
       endInstruction: 611
-      startSourceChar: 2080
-      endSourceChar: 2095
+      startSourceChar: 2082
+      endSourceChar: 2097
       line: 69
       lineChar: 12
       spanCodeSection: 'velocityTip += '
     - startInstruction: 612
       endInstruction: 611
-      startSourceChar: 2095
-      endSourceChar: 2095
+      startSourceChar: 2097
+      endSourceChar: 2097
       line: 69
       lineChar: 27
       spanCodeSection: 
     - startInstruction: 612
       endInstruction: 611
-      startSourceChar: 2095
-      endSourceChar: 2114
+      startSourceChar: 2097
+      endSourceChar: 2116
       line: 69
       lineChar: 27
       spanCodeSection: velocitySamplesTip[
     - startInstruction: 612
       endInstruction: 611
-      startSourceChar: 2114
-      endSourceChar: 2114
+      startSourceChar: 2116
+      endSourceChar: 2116
       line: 69
       lineChar: 46
       spanCodeSection: 
     - startInstruction: 612
       endInstruction: 755
-      startSourceChar: 2114
-      endSourceChar: 2138
+      startSourceChar: 2116
+      endSourceChar: 2140
       line: 69
       lineChar: 46
       spanCodeSection: "i];\r\n        }\r\n        "
     - startInstruction: 756
       endInstruction: 755
-      startSourceChar: 2138
-      endSourceChar: 2138
+      startSourceChar: 2140
+      endSourceChar: 2140
       line: 71
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 756
       endInstruction: 755
-      startSourceChar: 2138
-      endSourceChar: 2138
+      startSourceChar: 2140
+      endSourceChar: 2140
       line: 71
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 756
       endInstruction: 755
-      startSourceChar: 2138
-      endSourceChar: 2153
+      startSourceChar: 2140
+      endSourceChar: 2155
       line: 71
       lineChar: 8
       spanCodeSection: 'velocityTip *= '
     - startInstruction: 756
       endInstruction: 755
-      startSourceChar: 2153
-      endSourceChar: 2154
+      startSourceChar: 2155
+      endSourceChar: 2156
       line: 71
       lineChar: 23
       spanCodeSection: (
     - startInstruction: 756
       endInstruction: 755
-      startSourceChar: 2154
-      endSourceChar: 2154
+      startSourceChar: 2156
+      endSourceChar: 2156
       line: 71
       lineChar: 24
       spanCodeSection: 
     - startInstruction: 756
       endInstruction: 755
-      startSourceChar: 2154
-      endSourceChar: 2161
+      startSourceChar: 2156
+      endSourceChar: 2163
       line: 71
       lineChar: 24
       spanCodeSection: '1.0f / '
     - startInstruction: 756
       endInstruction: 863
-      startSourceChar: 2161
-      endSourceChar: 2193
+      startSourceChar: 2163
+      endSourceChar: 2195
       line: 71
       lineChar: 31
       spanCodeSection: "velocitySampleFreams);\r\n        "
     - startInstruction: 864
       endInstruction: 863
-      startSourceChar: 2193
-      endSourceChar: 2193
+      startSourceChar: 2195
+      endSourceChar: 2195
       line: 72
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 864
       endInstruction: 863
-      startSourceChar: 2193
-      endSourceChar: 2193
+      startSourceChar: 2195
+      endSourceChar: 2195
       line: 72
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 864
       endInstruction: 863
-      startSourceChar: 2193
-      endSourceChar: 2213
+      startSourceChar: 2195
+      endSourceChar: 2215
       line: 72
       lineChar: 8
       spanCodeSection: 'velocityScalarTip = '
     - startInstruction: 864
       endInstruction: 863
-      startSourceChar: 2213
-      endSourceChar: 2213
+      startSourceChar: 2215
+      endSourceChar: 2215
       line: 72
       lineChar: 28
       spanCodeSection: 
     - startInstruction: 864
       endInstruction: 863
-      startSourceChar: 2213
-      endSourceChar: 2225
+      startSourceChar: 2215
+      endSourceChar: 2227
       line: 72
       lineChar: 28
       spanCodeSection: velocityTip.
     - startInstruction: 864
       endInstruction: 887
-      startSourceChar: 2225
-      endSourceChar: 2275
+      startSourceChar: 2227
+      endSourceChar: 2277
       line: 72
       lineChar: 40
       spanCodeSection: "sqrMagnitude;\r\n\r\n        // \uFFFD\xCE~\uFFFD\uFFFD\u0502\u0308\u0292u\uFFFD\uFFFD\u64FE\r\n
         \       "
     - startInstruction: 888
       endInstruction: 887
-      startSourceChar: 2275
-      endSourceChar: 2279
+      startSourceChar: 2277
+      endSourceChar: 2281
       line: 75
       lineChar: 8
       spanCodeSection: if (
     - startInstruction: 888
       endInstruction: 887
-      startSourceChar: 2279
-      endSourceChar: 2279
+      startSourceChar: 2281
+      endSourceChar: 2281
       line: 75
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 888
       endInstruction: 887
-      startSourceChar: 2279
-      endSourceChar: 2299
+      startSourceChar: 2281
+      endSourceChar: 2301
       line: 75
       lineChar: 12
       spanCodeSection: 'velocityScalarTip < '
     - startInstruction: 888
       endInstruction: 935
-      startSourceChar: 2299
-      endSourceChar: 2324
+      startSourceChar: 2301
+      endSourceChar: 2326
       line: 75
       lineChar: 32
       spanCodeSection: "staticSpeedTip)\r\n        "
     - startInstruction: 936
       endInstruction: 935
-      startSourceChar: 2324
-      endSourceChar: 2339
+      startSourceChar: 2326
+      endSourceChar: 2341
       line: 76
       lineChar: 8
       spanCodeSection: "{\r\n            "
     - startInstruction: 936
       endInstruction: 935
-      startSourceChar: 2339
-      endSourceChar: 2339
+      startSourceChar: 2341
+      endSourceChar: 2341
       line: 77
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 936
       endInstruction: 935
-      startSourceChar: 2339
-      endSourceChar: 2339
+      startSourceChar: 2341
+      endSourceChar: 2341
       line: 77
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 936
       endInstruction: 935
-      startSourceChar: 2339
-      endSourceChar: 2358
+      startSourceChar: 2341
+      endSourceChar: 2360
       line: 77
       lineChar: 12
       spanCodeSection: 'startPositionTip = '
     - startInstruction: 936
       endInstruction: 935
-      startSourceChar: 2358
-      endSourceChar: 2358
+      startSourceChar: 2360
+      endSourceChar: 2360
       line: 77
       lineChar: 31
       spanCodeSection: 
     - startInstruction: 936
       endInstruction: 935
-      startSourceChar: 2358
-      endSourceChar: 2358
+      startSourceChar: 2360
+      endSourceChar: 2360
       line: 77
       lineChar: 31
       spanCodeSection: 
     - startInstruction: 936
       endInstruction: 935
-      startSourceChar: 2358
-      endSourceChar: 2365
+      startSourceChar: 2360
+      endSourceChar: 2367
       line: 77
       lineChar: 31
       spanCodeSection: objTip.
     - startInstruction: 936
       endInstruction: 935
-      startSourceChar: 2365
-      endSourceChar: 2375
+      startSourceChar: 2367
+      endSourceChar: 2377
       line: 77
       lineChar: 38
       spanCodeSection: transform.
     - startInstruction: 936
       endInstruction: 983
-      startSourceChar: 2375
-      endSourceChar: 2432
+      startSourceChar: 2377
+      endSourceChar: 2434
       line: 77
       lineChar: 48
       spanCodeSection: "position;\r\n        }\r\n\r\n        // \uFFFDX\uFFFDC\uFFFD\uFFFD\uFFFDO\uFFFD\uFFFD\uFFFD\uFFFD\r\n
         \       "
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2432
-      endSourceChar: 2432
+      startSourceChar: 2434
+      endSourceChar: 2434
       line: 81
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2432
-      endSourceChar: 2432
+      startSourceChar: 2434
+      endSourceChar: 2434
       line: 81
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2432
-      endSourceChar: 2448
+      startSourceChar: 2434
+      endSourceChar: 2450
       line: 81
       lineChar: 8
       spanCodeSection: 'movingDistTip = '
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2448
-      endSourceChar: 2448
+      startSourceChar: 2450
+      endSourceChar: 2450
       line: 81
       lineChar: 24
       spanCodeSection: 
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2448
-      endSourceChar: 2449
+      startSourceChar: 2450
+      endSourceChar: 2451
       line: 81
       lineChar: 24
       spanCodeSection: (
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2449
-      endSourceChar: 2449
+      startSourceChar: 2451
+      endSourceChar: 2451
       line: 81
       lineChar: 25
       spanCodeSection: 
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2449
-      endSourceChar: 2449
+      startSourceChar: 2451
+      endSourceChar: 2451
       line: 81
       lineChar: 25
       spanCodeSection: 
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2449
-      endSourceChar: 2449
+      startSourceChar: 2451
+      endSourceChar: 2451
       line: 81
       lineChar: 25
       spanCodeSection: 
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2449
-      endSourceChar: 2456
+      startSourceChar: 2451
+      endSourceChar: 2458
       line: 81
       lineChar: 25
       spanCodeSection: objTip.
     - startInstruction: 984
       endInstruction: 983
-      startSourceChar: 2456
-      endSourceChar: 2466
+      startSourceChar: 2458
+      endSourceChar: 2468
       line: 81
       lineChar: 32
       spanCodeSection: transform.
     - startInstruction: 984
       endInstruction: 1031
-      startSourceChar: 2466
-      endSourceChar: 2477
+      startSourceChar: 2468
+      endSourceChar: 2479
       line: 81
       lineChar: 42
       spanCodeSection: 'position - '
     - startInstruction: 1032
       endInstruction: 1063
-      startSourceChar: 2477
-      endSourceChar: 2495
+      startSourceChar: 2479
+      endSourceChar: 2497
       line: 81
       lineChar: 53
       spanCodeSection: startPositionTip).
     - startInstruction: 1064
       endInstruction: 1087
-      startSourceChar: 2495
-      endSourceChar: 2560
+      startSourceChar: 2497
+      endSourceChar: 2562
       line: 81
       lineChar: 71
       spanCodeSection: "sqrMagnitude;\r\n\r\n        // Handle\r\n        // \uFFFD\uFFFD\uFFFDx\uFFFDv\uFFFDZ\r\n
         \       "
     - startInstruction: 1088
       endInstruction: 1087
-      startSourceChar: 2560
-      endSourceChar: 2560
+      startSourceChar: 2562
+      endSourceChar: 2562
       line: 85
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1088
       endInstruction: 1087
-      startSourceChar: 2560
-      endSourceChar: 2560
+      startSourceChar: 2562
+      endSourceChar: 2562
       line: 85
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1088
       endInstruction: 1087
-      startSourceChar: 2560
-      endSourceChar: 2560
+      startSourceChar: 2562
+      endSourceChar: 2562
       line: 85
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1088
       endInstruction: 1087
-      startSourceChar: 2560
-      endSourceChar: 2582
+      startSourceChar: 2562
+      endSourceChar: 2584
       line: 85
       lineChar: 8
       spanCodeSection: velocitySamplesHandle[
     - startInstruction: 1088
       endInstruction: 1087
-      startSourceChar: 2582
-      endSourceChar: 2582
+      startSourceChar: 2584
+      endSourceChar: 2584
       line: 85
       lineChar: 30
       spanCodeSection: 
     - startInstruction: 1088
       endInstruction: 1087
-      startSourceChar: 2582
-      endSourceChar: 2582
+      startSourceChar: 2584
+      endSourceChar: 2584
       line: 85
       lineChar: 30
       spanCodeSection: 
     - startInstruction: 1088
       endInstruction: 1087
-      startSourceChar: 2582
-      endSourceChar: 2596
+      startSourceChar: 2584
+      endSourceChar: 2598
       line: 85
       lineChar: 30
       spanCodeSection: 'sampleCount % '
     - startInstruction: 1088
       endInstruction: 1087
-      startSourceChar: 2596
-      endSourceChar: 2596
+      startSourceChar: 2598
+      endSourceChar: 2598
       line: 85
       lineChar: 44
       spanCodeSection: 
     - startInstruction: 1088
       endInstruction: 1087
-      startSourceChar: 2596
-      endSourceChar: 2618
+      startSourceChar: 2598
+      endSourceChar: 2620
       line: 85
       lineChar: 44
       spanCodeSection: velocitySamplesHandle.
     - startInstruction: 1088
       endInstruction: 1143
-      startSourceChar: 2618
-      endSourceChar: 2628
+      startSourceChar: 2620
+      endSourceChar: 2630
       line: 85
       lineChar: 66
       spanCodeSection: 'Length] = '
     - startInstruction: 1144
       endInstruction: 1143
-      startSourceChar: 2628
-      endSourceChar: 2628
+      startSourceChar: 2630
+      endSourceChar: 2630
       line: 85
       lineChar: 76
       spanCodeSection: 
     - startInstruction: 1144
       endInstruction: 1143
-      startSourceChar: 2628
-      endSourceChar: 2629
+      startSourceChar: 2630
+      endSourceChar: 2631
       line: 85
       lineChar: 76
       spanCodeSection: (
     - startInstruction: 1144
       endInstruction: 1143
-      startSourceChar: 2629
-      endSourceChar: 2629
+      startSourceChar: 2631
+      endSourceChar: 2631
       line: 85
       lineChar: 77
       spanCodeSection: 
     - startInstruction: 1144
       endInstruction: 1143
-      startSourceChar: 2629
-      endSourceChar: 2636
+      startSourceChar: 2631
+      endSourceChar: 2638
       line: 85
       lineChar: 77
       spanCodeSection: '1.0f / '
     - startInstruction: 1144
       endInstruction: 1143
-      startSourceChar: 2636
-      endSourceChar: 2636
+      startSourceChar: 2638
+      endSourceChar: 2638
       line: 85
       lineChar: 84
       spanCodeSection: 
     - startInstruction: 1144
       endInstruction: 1143
-      startSourceChar: 2636
-      endSourceChar: 2641
+      startSourceChar: 2638
+      endSourceChar: 2643
       line: 85
       lineChar: 84
       spanCodeSection: Time.
     - startInstruction: 1144
       endInstruction: 1191
-      startSourceChar: 2641
-      endSourceChar: 2654
+      startSourceChar: 2643
+      endSourceChar: 2656
       line: 85
       lineChar: 89
       spanCodeSection: 'deltaTime) * '
     - startInstruction: 1192
       endInstruction: 1191
-      startSourceChar: 2654
-      endSourceChar: 2655
+      startSourceChar: 2656
+      endSourceChar: 2657
       line: 85
       lineChar: 102
       spanCodeSection: (
     - startInstruction: 1192
       endInstruction: 1191
-      startSourceChar: 2655
-      endSourceChar: 2655
+      startSourceChar: 2657
+      endSourceChar: 2657
       line: 85
       lineChar: 103
       spanCodeSection: 
     - startInstruction: 1192
       endInstruction: 1191
-      startSourceChar: 2655
-      endSourceChar: 2655
+      startSourceChar: 2657
+      endSourceChar: 2657
       line: 85
       lineChar: 103
       spanCodeSection: 
     - startInstruction: 1192
       endInstruction: 1191
-      startSourceChar: 2655
-      endSourceChar: 2655
+      startSourceChar: 2657
+      endSourceChar: 2657
       line: 85
       lineChar: 103
       spanCodeSection: 
     - startInstruction: 1192
       endInstruction: 1191
-      startSourceChar: 2655
-      endSourceChar: 2665
+      startSourceChar: 2657
+      endSourceChar: 2667
       line: 85
       lineChar: 103
       spanCodeSection: objHandle.
     - startInstruction: 1192
       endInstruction: 1191
-      startSourceChar: 2665
-      endSourceChar: 2675
+      startSourceChar: 2667
+      endSourceChar: 2677
       line: 85
       lineChar: 113
       spanCodeSection: transform.
     - startInstruction: 1192
       endInstruction: 1239
-      startSourceChar: 2675
-      endSourceChar: 2686
+      startSourceChar: 2677
+      endSourceChar: 2688
       line: 85
       lineChar: 123
       spanCodeSection: 'position - '
     - startInstruction: 1240
       endInstruction: 1335
-      startSourceChar: 2686
-      endSourceChar: 2716
+      startSourceChar: 2688
+      endSourceChar: 2718
       line: 85
       lineChar: 134
       spanCodeSection: "prevPositionHandle);\r\n        "
     - startInstruction: 1336
       endInstruction: 1335
-      startSourceChar: 2716
-      endSourceChar: 2716
+      startSourceChar: 2718
+      endSourceChar: 2718
       line: 86
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1336
       endInstruction: 1335
-      startSourceChar: 2716
-      endSourceChar: 2716
+      startSourceChar: 2718
+      endSourceChar: 2718
       line: 86
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1336
       endInstruction: 1335
-      startSourceChar: 2716
-      endSourceChar: 2737
+      startSourceChar: 2718
+      endSourceChar: 2739
       line: 86
       lineChar: 8
       spanCodeSection: 'prevPositionHandle = '
     - startInstruction: 1336
       endInstruction: 1335
-      startSourceChar: 2737
-      endSourceChar: 2737
+      startSourceChar: 2739
+      endSourceChar: 2739
       line: 86
       lineChar: 29
       spanCodeSection: 
     - startInstruction: 1336
       endInstruction: 1335
-      startSourceChar: 2737
-      endSourceChar: 2737
+      startSourceChar: 2739
+      endSourceChar: 2739
       line: 86
       lineChar: 29
       spanCodeSection: 
     - startInstruction: 1336
       endInstruction: 1335
-      startSourceChar: 2737
-      endSourceChar: 2747
+      startSourceChar: 2739
+      endSourceChar: 2749
       line: 86
       lineChar: 29
       spanCodeSection: objHandle.
     - startInstruction: 1336
       endInstruction: 1335
-      startSourceChar: 2747
-      endSourceChar: 2757
+      startSourceChar: 2749
+      endSourceChar: 2759
       line: 86
       lineChar: 39
       spanCodeSection: transform.
     - startInstruction: 1336
       endInstruction: 1383
-      startSourceChar: 2757
-      endSourceChar: 2778
+      startSourceChar: 2759
+      endSourceChar: 2780
       line: 86
       lineChar: 49
       spanCodeSection: "position;\r\n\r\n        "
     - startInstruction: 1384
       endInstruction: 1383
-      startSourceChar: 2778
-      endSourceChar: 2778
+      startSourceChar: 2780
+      endSourceChar: 2780
       line: 88
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1384
       endInstruction: 1383
-      startSourceChar: 2778
-      endSourceChar: 2778
+      startSourceChar: 2780
+      endSourceChar: 2780
       line: 88
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1384
       endInstruction: 1383
-      startSourceChar: 2778
-      endSourceChar: 2795
+      startSourceChar: 2780
+      endSourceChar: 2797
       line: 88
       lineChar: 8
       spanCodeSection: 'velocityHandle = '
     - startInstruction: 1384
       endInstruction: 1383
-      startSourceChar: 2795
-      endSourceChar: 2795
+      startSourceChar: 2797
+      endSourceChar: 2797
       line: 88
       lineChar: 25
       spanCodeSection: 
     - startInstruction: 1384
       endInstruction: 1383
-      startSourceChar: 2795
-      endSourceChar: 2803
+      startSourceChar: 2797
+      endSourceChar: 2805
       line: 88
       lineChar: 25
       spanCodeSection: Vector3.
     - startInstruction: 1384
       endInstruction: 1399
-      startSourceChar: 2803
-      endSourceChar: 2818
+      startSourceChar: 2805
+      endSourceChar: 2820
       line: 88
       lineChar: 33
       spanCodeSection: "zero;\r\n        "
     - startInstruction: 1400
       endInstruction: 1399
-      startSourceChar: 2818
-      endSourceChar: 2823
+      startSourceChar: 2820
+      endSourceChar: 2825
       line: 89
       lineChar: 8
       spanCodeSection: for (
     - startInstruction: 1400
       endInstruction: 1399
-      startSourceChar: 2823
-      endSourceChar: 2823
+      startSourceChar: 2825
+      endSourceChar: 2825
       line: 89
       lineChar: 13
       spanCodeSection: 
     - startInstruction: 1400
       endInstruction: 1399
-      startSourceChar: 2823
-      endSourceChar: 2827
+      startSourceChar: 2825
+      endSourceChar: 2829
       line: 89
       lineChar: 13
       spanCodeSection: 'i = '
     - startInstruction: 1400
       endInstruction: 1419
-      startSourceChar: 2827
-      endSourceChar: 2830
+      startSourceChar: 2829
+      endSourceChar: 2832
       line: 89
       lineChar: 17
       spanCodeSection: '0; '
     - startInstruction: 1420
       endInstruction: 1419
-      startSourceChar: 2830
-      endSourceChar: 2830
+      startSourceChar: 2832
+      endSourceChar: 2832
       line: 89
       lineChar: 20
       spanCodeSection: 
     - startInstruction: 1420
       endInstruction: 1419
-      startSourceChar: 2830
-      endSourceChar: 2834
+      startSourceChar: 2832
+      endSourceChar: 2836
       line: 89
       lineChar: 20
       spanCodeSection: 'i < '
     - startInstruction: 1420
       endInstruction: 1467
-      startSourceChar: 2834
-      endSourceChar: 2870
+      startSourceChar: 2836
+      endSourceChar: 2872
       line: 89
       lineChar: 24
       spanCodeSection: "velocitySampleFreams; i++)\r\n        "
     - startInstruction: 1468
       endInstruction: 1467
-      startSourceChar: 2870
-      endSourceChar: 2885
+      startSourceChar: 2872
+      endSourceChar: 2887
       line: 90
       lineChar: 8
       spanCodeSection: "{\r\n            "
     - startInstruction: 1468
       endInstruction: 1467
-      startSourceChar: 2885
-      endSourceChar: 2885
+      startSourceChar: 2887
+      endSourceChar: 2887
       line: 91
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 1468
       endInstruction: 1467
-      startSourceChar: 2885
-      endSourceChar: 2885
+      startSourceChar: 2887
+      endSourceChar: 2887
       line: 91
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 1468
       endInstruction: 1467
-      startSourceChar: 2885
-      endSourceChar: 2903
+      startSourceChar: 2887
+      endSourceChar: 2905
       line: 91
       lineChar: 12
       spanCodeSection: 'velocityHandle += '
     - startInstruction: 1468
       endInstruction: 1467
-      startSourceChar: 2903
-      endSourceChar: 2903
+      startSourceChar: 2905
+      endSourceChar: 2905
       line: 91
       lineChar: 30
       spanCodeSection: 
     - startInstruction: 1468
       endInstruction: 1467
-      startSourceChar: 2903
-      endSourceChar: 2925
+      startSourceChar: 2905
+      endSourceChar: 2927
       line: 91
       lineChar: 30
       spanCodeSection: velocitySamplesHandle[
     - startInstruction: 1468
       endInstruction: 1467
-      startSourceChar: 2925
-      endSourceChar: 2925
+      startSourceChar: 2927
+      endSourceChar: 2927
       line: 91
       lineChar: 52
       spanCodeSection: 
     - startInstruction: 1468
       endInstruction: 1611
-      startSourceChar: 2925
-      endSourceChar: 2949
+      startSourceChar: 2927
+      endSourceChar: 2951
       line: 91
       lineChar: 52
       spanCodeSection: "i];\r\n        }\r\n        "
     - startInstruction: 1612
       endInstruction: 1611
-      startSourceChar: 2949
-      endSourceChar: 2949
+      startSourceChar: 2951
+      endSourceChar: 2951
       line: 93
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1612
       endInstruction: 1611
-      startSourceChar: 2949
-      endSourceChar: 2949
+      startSourceChar: 2951
+      endSourceChar: 2951
       line: 93
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1612
       endInstruction: 1611
-      startSourceChar: 2949
-      endSourceChar: 2967
+      startSourceChar: 2951
+      endSourceChar: 2969
       line: 93
       lineChar: 8
       spanCodeSection: 'velocityHandle *= '
     - startInstruction: 1612
       endInstruction: 1611
-      startSourceChar: 2967
-      endSourceChar: 2968
+      startSourceChar: 2969
+      endSourceChar: 2970
       line: 93
       lineChar: 26
       spanCodeSection: (
     - startInstruction: 1612
       endInstruction: 1611
-      startSourceChar: 2968
-      endSourceChar: 2968
+      startSourceChar: 2970
+      endSourceChar: 2970
       line: 93
       lineChar: 27
       spanCodeSection: 
     - startInstruction: 1612
       endInstruction: 1611
-      startSourceChar: 2968
-      endSourceChar: 2975
+      startSourceChar: 2970
+      endSourceChar: 2977
       line: 93
       lineChar: 27
       spanCodeSection: '1.0f / '
     - startInstruction: 1612
       endInstruction: 1719
-      startSourceChar: 2975
-      endSourceChar: 3007
+      startSourceChar: 2977
+      endSourceChar: 3009
       line: 93
       lineChar: 34
       spanCodeSection: "velocitySampleFreams);\r\n        "
     - startInstruction: 1720
       endInstruction: 1719
-      startSourceChar: 3007
-      endSourceChar: 3007
+      startSourceChar: 3009
+      endSourceChar: 3009
       line: 94
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1720
       endInstruction: 1719
-      startSourceChar: 3007
-      endSourceChar: 3007
+      startSourceChar: 3009
+      endSourceChar: 3009
       line: 94
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1720
       endInstruction: 1719
-      startSourceChar: 3007
-      endSourceChar: 3030
+      startSourceChar: 3009
+      endSourceChar: 3032
       line: 94
       lineChar: 8
       spanCodeSection: 'velocityScalarHandle = '
     - startInstruction: 1720
       endInstruction: 1719
-      startSourceChar: 3030
-      endSourceChar: 3030
+      startSourceChar: 3032
+      endSourceChar: 3032
       line: 94
       lineChar: 31
       spanCodeSection: 
     - startInstruction: 1720
       endInstruction: 1719
-      startSourceChar: 3030
-      endSourceChar: 3045
+      startSourceChar: 3032
+      endSourceChar: 3047
       line: 94
       lineChar: 31
       spanCodeSection: velocityHandle.
     - startInstruction: 1720
       endInstruction: 1743
-      startSourceChar: 3045
-      endSourceChar: 3095
+      startSourceChar: 3047
+      endSourceChar: 3097
       line: 94
       lineChar: 46
       spanCodeSection: "sqrMagnitude;\r\n\r\n        // \uFFFD\xCE~\uFFFD\uFFFD\u0502\u0308\u0292u\uFFFD\uFFFD\u64FE\r\n
         \       "
     - startInstruction: 1744
       endInstruction: 1743
-      startSourceChar: 3095
-      endSourceChar: 3099
+      startSourceChar: 3097
+      endSourceChar: 3101
       line: 97
       lineChar: 8
       spanCodeSection: if (
     - startInstruction: 1744
       endInstruction: 1743
-      startSourceChar: 3099
-      endSourceChar: 3099
+      startSourceChar: 3101
+      endSourceChar: 3101
       line: 97
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 1744
       endInstruction: 1743
-      startSourceChar: 3099
-      endSourceChar: 3122
+      startSourceChar: 3101
+      endSourceChar: 3124
       line: 97
       lineChar: 12
       spanCodeSection: 'velocityScalarHandle < '
     - startInstruction: 1744
       endInstruction: 1791
-      startSourceChar: 3122
-      endSourceChar: 3150
+      startSourceChar: 3124
+      endSourceChar: 3152
       line: 97
       lineChar: 35
       spanCodeSection: "staticSpeedHandle)\r\n        "
     - startInstruction: 1792
       endInstruction: 1791
-      startSourceChar: 3150
-      endSourceChar: 3165
+      startSourceChar: 3152
+      endSourceChar: 3167
       line: 98
       lineChar: 8
       spanCodeSection: "{\r\n            "
     - startInstruction: 1792
       endInstruction: 1791
-      startSourceChar: 3165
-      endSourceChar: 3165
+      startSourceChar: 3167
+      endSourceChar: 3167
       line: 99
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 1792
       endInstruction: 1791
-      startSourceChar: 3165
-      endSourceChar: 3165
+      startSourceChar: 3167
+      endSourceChar: 3167
       line: 99
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 1792
       endInstruction: 1791
-      startSourceChar: 3165
-      endSourceChar: 3187
+      startSourceChar: 3167
+      endSourceChar: 3189
       line: 99
       lineChar: 12
       spanCodeSection: 'startPositionHandle = '
     - startInstruction: 1792
       endInstruction: 1791
-      startSourceChar: 3187
-      endSourceChar: 3187
+      startSourceChar: 3189
+      endSourceChar: 3189
       line: 99
       lineChar: 34
       spanCodeSection: 
     - startInstruction: 1792
       endInstruction: 1791
-      startSourceChar: 3187
-      endSourceChar: 3187
+      startSourceChar: 3189
+      endSourceChar: 3189
       line: 99
       lineChar: 34
       spanCodeSection: 
     - startInstruction: 1792
       endInstruction: 1791
-      startSourceChar: 3187
-      endSourceChar: 3197
+      startSourceChar: 3189
+      endSourceChar: 3199
       line: 99
       lineChar: 34
       spanCodeSection: objHandle.
     - startInstruction: 1792
       endInstruction: 1791
-      startSourceChar: 3197
-      endSourceChar: 3207
+      startSourceChar: 3199
+      endSourceChar: 3209
       line: 99
       lineChar: 44
       spanCodeSection: transform.
     - startInstruction: 1792
       endInstruction: 1839
-      startSourceChar: 3207
-      endSourceChar: 3264
+      startSourceChar: 3209
+      endSourceChar: 3266
       line: 99
       lineChar: 54
       spanCodeSection: "position;\r\n        }\r\n\r\n        // \uFFFDX\uFFFDC\uFFFD\uFFFD\uFFFDO\uFFFD\uFFFD\uFFFD\uFFFD\r\n
         \       "
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3264
-      endSourceChar: 3264
+      startSourceChar: 3266
+      endSourceChar: 3266
       line: 103
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3264
-      endSourceChar: 3264
+      startSourceChar: 3266
+      endSourceChar: 3266
       line: 103
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3264
-      endSourceChar: 3283
+      startSourceChar: 3266
+      endSourceChar: 3285
       line: 103
       lineChar: 8
       spanCodeSection: 'movingDistHandle = '
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3283
-      endSourceChar: 3283
+      startSourceChar: 3285
+      endSourceChar: 3285
       line: 103
       lineChar: 27
       spanCodeSection: 
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3283
-      endSourceChar: 3284
+      startSourceChar: 3285
+      endSourceChar: 3286
       line: 103
       lineChar: 27
       spanCodeSection: (
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3284
-      endSourceChar: 3284
+      startSourceChar: 3286
+      endSourceChar: 3286
       line: 103
       lineChar: 28
       spanCodeSection: 
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3284
-      endSourceChar: 3284
+      startSourceChar: 3286
+      endSourceChar: 3286
       line: 103
       lineChar: 28
       spanCodeSection: 
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3284
-      endSourceChar: 3284
+      startSourceChar: 3286
+      endSourceChar: 3286
       line: 103
       lineChar: 28
       spanCodeSection: 
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3284
-      endSourceChar: 3294
+      startSourceChar: 3286
+      endSourceChar: 3296
       line: 103
       lineChar: 28
       spanCodeSection: objHandle.
     - startInstruction: 1840
       endInstruction: 1839
-      startSourceChar: 3294
-      endSourceChar: 3304
+      startSourceChar: 3296
+      endSourceChar: 3306
       line: 103
       lineChar: 38
       spanCodeSection: transform.
     - startInstruction: 1840
       endInstruction: 1887
-      startSourceChar: 3304
-      endSourceChar: 3315
+      startSourceChar: 3306
+      endSourceChar: 3317
       line: 103
       lineChar: 48
       spanCodeSection: 'position - '
     - startInstruction: 1888
       endInstruction: 1919
-      startSourceChar: 3315
-      endSourceChar: 3336
+      startSourceChar: 3317
+      endSourceChar: 3338
       line: 103
       lineChar: 59
       spanCodeSection: startPositionHandle).
     - startInstruction: 1920
       endInstruction: 1943
-      startSourceChar: 3336
-      endSourceChar: 3407
+      startSourceChar: 3338
+      endSourceChar: 3409
       line: 103
       lineChar: 80
       spanCodeSection: "sqrMagnitude;\r\n\r\n        // \uFFFD\uFFFD\uFFFDx\uFFFD\u0189\uFFFD\uFFFD\uFFFD\uFFFDx\uFFFD\u0190\xCE~\uFFFD\uFFFD\u0502\uFFFD\uFFFD\uFFFD\u0308\u0693\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0154\uFFFD\uFFFD\uFFFD\r\n
         \       "
     - startInstruction: 1944
       endInstruction: 1943
-      startSourceChar: 3407
-      endSourceChar: 3411
+      startSourceChar: 3409
+      endSourceChar: 3413
       line: 106
       lineChar: 8
       spanCodeSection: if (
     - startInstruction: 1944
       endInstruction: 1943
-      startSourceChar: 3411
-      endSourceChar: 3411
+      startSourceChar: 3413
+      endSourceChar: 3413
       line: 106
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 1944
       endInstruction: 1943
-      startSourceChar: 3411
-      endSourceChar: 3411
+      startSourceChar: 3413
+      endSourceChar: 3413
       line: 106
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 1944
       endInstruction: 1943
-      startSourceChar: 3411
-      endSourceChar: 3411
+      startSourceChar: 3413
+      endSourceChar: 3413
       line: 106
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 1944
       endInstruction: 1943
-      startSourceChar: 3411
-      endSourceChar: 3411
+      startSourceChar: 3413
+      endSourceChar: 3413
       line: 106
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 1944
       endInstruction: 1943
-      startSourceChar: 3411
-      endSourceChar: 3432
+      startSourceChar: 3413
+      endSourceChar: 3434
       line: 106
       lineChar: 12
       spanCodeSection: 'velocityScalarTip >= '
     - startInstruction: 1944
       endInstruction: 2011
-      startSourceChar: 3432
-      endSourceChar: 3463
+      startSourceChar: 3434
+      endSourceChar: 3465
       line: 106
       lineChar: 33
       spanCodeSection: "attackSpeedTip &&\r\n            "
     - startInstruction: 2012
       endInstruction: 2011
-      startSourceChar: 3463
-      endSourceChar: 3463
+      startSourceChar: 3465
+      endSourceChar: 3465
       line: 107
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 2012
       endInstruction: 2011
-      startSourceChar: 3463
-      endSourceChar: 3487
+      startSourceChar: 3465
+      endSourceChar: 3489
       line: 107
       lineChar: 12
       spanCodeSection: 'velocityScalarHandle >= '
     - startInstruction: 2012
       endInstruction: 2131
-      startSourceChar: 3487
-      endSourceChar: 3521
+      startSourceChar: 3489
+      endSourceChar: 3523
       line: 107
       lineChar: 36
       spanCodeSection: "attackSpeedHandle &&\r\n            "
     - startInstruction: 2132
       endInstruction: 2131
-      startSourceChar: 3521
-      endSourceChar: 3521
+      startSourceChar: 3523
+      endSourceChar: 3523
       line: 108
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 2132
       endInstruction: 2131
-      startSourceChar: 3521
-      endSourceChar: 3541
+      startSourceChar: 3523
+      endSourceChar: 3543
       line: 108
       lineChar: 12
       spanCodeSection: 'effectiveDistTip <= '
     - startInstruction: 2132
       endInstruction: 2251
-      startSourceChar: 3541
-      endSourceChar: 3571
+      startSourceChar: 3543
+      endSourceChar: 3573
       line: 108
       lineChar: 32
       spanCodeSection: "movingDistTip &&\r\n            "
     - startInstruction: 2252
       endInstruction: 2251
-      startSourceChar: 3571
-      endSourceChar: 3571
+      startSourceChar: 3573
+      endSourceChar: 3573
       line: 109
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 2252
       endInstruction: 2251
-      startSourceChar: 3571
-      endSourceChar: 3594
+      startSourceChar: 3573
+      endSourceChar: 3596
       line: 109
       lineChar: 12
       spanCodeSection: 'effectiveDistHandle <= '
     - startInstruction: 2252
       endInstruction: 2351
-      startSourceChar: 3594
-      endSourceChar: 3621
+      startSourceChar: 3596
+      endSourceChar: 3623
       line: 109
       lineChar: 35
       spanCodeSection: "movingDistHandle)\r\n        "
     - startInstruction: 2352
       endInstruction: 2351
-      startSourceChar: 3621
-      endSourceChar: 3636
+      startSourceChar: 3623
+      endSourceChar: 3638
       line: 110
       lineChar: 8
       spanCodeSection: "{\r\n            "
     - startInstruction: 2352
       endInstruction: 2351
-      startSourceChar: 3636
-      endSourceChar: 3636
+      startSourceChar: 3638
+      endSourceChar: 3638
       line: 111
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 2352
       endInstruction: 2351
-      startSourceChar: 3636
-      endSourceChar: 3636
+      startSourceChar: 3638
+      endSourceChar: 3638
       line: 111
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 2352
       endInstruction: 2351
-      startSourceChar: 3636
-      endSourceChar: 3656
+      startSourceChar: 3638
+      endSourceChar: 3658
       line: 111
       lineChar: 12
       spanCodeSection: 'attackSampleCount = '
     - startInstruction: 2352
       endInstruction: 2371
-      startSourceChar: 3656
-      endSourceChar: 3672
+      startSourceChar: 3658
+      endSourceChar: 3674
       line: 111
       lineChar: 32
       spanCodeSection: "0;\r\n            "
     - startInstruction: 2372
       endInstruction: 2371
-      startSourceChar: 3672
-      endSourceChar: 3672
+      startSourceChar: 3674
+      endSourceChar: 3674
       line: 112
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 2372
       endInstruction: 2371
-      startSourceChar: 3672
-      endSourceChar: 3672
+      startSourceChar: 3674
+      endSourceChar: 3674
       line: 112
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 2372
       endInstruction: 2371
-      startSourceChar: 3672
-      endSourceChar: 3672
+      startSourceChar: 3674
+      endSourceChar: 3674
       line: 112
       lineChar: 12
       spanCodeSection: 
     - startInstruction: 2372
       endInstruction: 2371
-      startSourceChar: 3672
-      endSourceChar: 3681
+      startSourceChar: 3674
+      endSourceChar: 3683
       line: 112
       lineChar: 12
       spanCodeSection: Attacker.
     - startInstruction: 2372
       endInstruction: 2371
-      startSourceChar: 3681
-      endSourceChar: 3691
+      startSourceChar: 3683
+      endSourceChar: 3693
       line: 112
       lineChar: 21
       spanCodeSection: SetActive(
     - startInstruction: 2372
       endInstruction: 2403
-      startSourceChar: 3691
-      endSourceChar: 3718
+      startSourceChar: 3693
+      endSourceChar: 3720
       line: 112
       lineChar: 31
       spanCodeSection: "true);\r\n        }\r\n        "
     - startInstruction: 2404
       endInstruction: 2403
-      startSourceChar: 3718
-      endSourceChar: 3732
+      startSourceChar: 3720
+      endSourceChar: 3734
       line: 114
       lineChar: 8
       spanCodeSection: "else\r\n        "
     - startInstruction: 2404
       endInstruction: 2403
-      startSourceChar: 3732
-      endSourceChar: 3812
+      startSourceChar: 3734
+      endSourceChar: 3814
       line: 115
       lineChar: 8
       spanCodeSection: "{\r\n            // \uFFFDU\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0258A\uFFFD\uFFFD\uFFFD\uFFFDattackSampleFreams\uFFFD\U0004EE14s\uFFFD\uFFFD\uFFFD\uFFFD\u018DU\uFFFD\uFFFD\uFFFDI\uFFFD\uFFFD\r\n
         \           "
     - startInstruction: 2404
       endInstruction: 2403
-      startSourceChar: 3812
-      endSourceChar: 3816
+      startSourceChar: 3814
+      endSourceChar: 3818
       line: 117
       lineChar: 12
       spanCodeSection: if (
     - startInstruction: 2404
       endInstruction: 2403
-      startSourceChar: 3816
-      endSourceChar: 3816
+      startSourceChar: 3818
+      endSourceChar: 3818
       line: 117
       lineChar: 16
       spanCodeSection: 
     - startInstruction: 2404
       endInstruction: 2403
-      startSourceChar: 3816
-      endSourceChar: 3836
+      startSourceChar: 3818
+      endSourceChar: 3838
       line: 117
       lineChar: 16
       spanCodeSection: 'attackSampleCount > '
     - startInstruction: 2404
       endInstruction: 2451
-      startSourceChar: 3836
-      endSourceChar: 3869
+      startSourceChar: 3838
+      endSourceChar: 3871
       line: 117
       lineChar: 36
       spanCodeSection: "attackSampleFreams)\r\n            "
     - startInstruction: 2452
       endInstruction: 2451
-      startSourceChar: 3869
-      endSourceChar: 3888
+      startSourceChar: 3871
+      endSourceChar: 3890
       line: 118
       lineChar: 12
       spanCodeSection: "{\r\n                "
     - startInstruction: 2452
       endInstruction: 2451
-      startSourceChar: 3888
-      endSourceChar: 3888
+      startSourceChar: 3890
+      endSourceChar: 3890
       line: 119
       lineChar: 16
       spanCodeSection: 
     - startInstruction: 2452
       endInstruction: 2451
-      startSourceChar: 3888
-      endSourceChar: 3888
+      startSourceChar: 3890
+      endSourceChar: 3890
       line: 119
       lineChar: 16
       spanCodeSection: 
     - startInstruction: 2452
       endInstruction: 2451
-      startSourceChar: 3888
-      endSourceChar: 3908
+      startSourceChar: 3890
+      endSourceChar: 3910
       line: 119
       lineChar: 16
       spanCodeSection: 'attackSampleCount = '
     - startInstruction: 2452
       endInstruction: 2471
-      startSourceChar: 3908
-      endSourceChar: 3928
+      startSourceChar: 3910
+      endSourceChar: 3930
       line: 119
       lineChar: 36
       spanCodeSection: "0;\r\n                "
     - startInstruction: 2472
       endInstruction: 2471
-      startSourceChar: 3928
-      endSourceChar: 3928
+      startSourceChar: 3930
+      endSourceChar: 3930
       line: 120
       lineChar: 16
       spanCodeSection: 
     - startInstruction: 2472
       endInstruction: 2471
-      startSourceChar: 3928
-      endSourceChar: 3928
+      startSourceChar: 3930
+      endSourceChar: 3930
       line: 120
       lineChar: 16
       spanCodeSection: 
     - startInstruction: 2472
       endInstruction: 2471
-      startSourceChar: 3928
-      endSourceChar: 3928
+      startSourceChar: 3930
+      endSourceChar: 3930
       line: 120
       lineChar: 16
       spanCodeSection: 
     - startInstruction: 2472
       endInstruction: 2471
-      startSourceChar: 3928
-      endSourceChar: 3937
+      startSourceChar: 3930
+      endSourceChar: 3939
       line: 120
       lineChar: 16
       spanCodeSection: Attacker.
     - startInstruction: 2472
       endInstruction: 2471
-      startSourceChar: 3937
-      endSourceChar: 3947
+      startSourceChar: 3939
+      endSourceChar: 3949
       line: 120
       lineChar: 25
       spanCodeSection: SetActive(
     - startInstruction: 2472
       endInstruction: 2503
-      startSourceChar: 3947
-      endSourceChar: 3983
+      startSourceChar: 3949
+      endSourceChar: 3985
       line: 120
       lineChar: 35
       spanCodeSection: "false);\r\n            }\r\n            "
     - startInstruction: 2504
       endInstruction: 2503
-      startSourceChar: 3983
-      endSourceChar: 4001
+      startSourceChar: 3985
+      endSourceChar: 4003
       line: 122
       lineChar: 12
       spanCodeSection: "else\r\n            "
     - startInstruction: 2504
       endInstruction: 2503
-      startSourceChar: 4001
-      endSourceChar: 4020
+      startSourceChar: 4003
+      endSourceChar: 4022
       line: 123
       lineChar: 12
       spanCodeSection: "{\r\n                "
     - startInstruction: 2504
       endInstruction: 2503
-      startSourceChar: 4020
-      endSourceChar: 4020
+      startSourceChar: 4022
+      endSourceChar: 4022
       line: 124
       lineChar: 16
       spanCodeSection: 
     - startInstruction: 2504
       endInstruction: 2503
-      startSourceChar: 4020
-      endSourceChar: 4020
+      startSourceChar: 4022
+      endSourceChar: 4022
       line: 124
       lineChar: 16
       spanCodeSection: 
     - startInstruction: 2504
       endInstruction: 2504
-      startSourceChar: 4020
-      endSourceChar: 4020
+      startSourceChar: 4022
+      endSourceChar: 4022
       line: 124
       lineChar: 16
       spanCodeSection: 
