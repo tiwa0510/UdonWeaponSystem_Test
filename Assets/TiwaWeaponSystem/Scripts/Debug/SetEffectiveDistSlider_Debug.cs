@@ -11,9 +11,14 @@ public class SetEffectiveDistSlider_Debug : UdonSharpBehaviour
 
     public VelocityEstimator velocityEstimator;
 
+    private void Start()
+    {
+        slider.value = velocityEstimator.effectiveDist;
+    }
+
     private void Update()
     {
-        velocityEstimator.effectiveDist = (int)slider.value;
+        velocityEstimator.effectiveDist = slider.value;
         text.text = velocityEstimator.effectiveDist.ToString();
     }
 }

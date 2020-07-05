@@ -13,6 +13,7 @@ public class SetVelocitySampleSlider_Debug : UdonSharpBehaviour
 
     void Start()
     {
+        slider.value = velocityEstimator.velocitySampleFreams;
     }
 
     private void Update()

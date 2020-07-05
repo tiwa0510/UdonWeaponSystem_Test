@@ -11,6 +11,10 @@ public class SetAttackSampleFreamsSlider_Debug : UdonSharpBehaviour
 
     public VelocityEstimator velocityEstimator;
 
+    private void Start()
+    {
+        slider.value = velocityEstimator.attackSampleFreams;
+    }
     private void Update()
     {
         velocityEstimator.attackSampleFreams = (int)slider.value;

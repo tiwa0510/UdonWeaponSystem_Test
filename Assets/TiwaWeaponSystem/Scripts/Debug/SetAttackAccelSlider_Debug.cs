@@ -1,10 +1,10 @@
+
 using UdonSharp;
-using UnityEngine;
 using UnityEngine.UI;
 using VRC.SDKBase;
 using VRC.Udon;
 
-public class SetAttackSpeedSlider_Debug : UdonSharpBehaviour
+public class SetAttackAccelSlider_Debug : UdonSharpBehaviour
 {
     public Slider slider;
     public Text text;
@@ -13,11 +13,11 @@ public class SetAttackSpeedSlider_Debug : UdonSharpBehaviour
 
     private void Start()
     {
-        slider.value = velocityEstimator.attackSpeed;
+        slider.value = velocityEstimator.attackAccel;
     }
     private void Update()
     {
-        velocityEstimator.attackSpeed = slider.value;
-        text.text = velocityEstimator.attackSpeed.ToString();
+        velocityEstimator.attackAccel= slider.value;
+        text.text = velocityEstimator.attackAccel.ToString();
     }
 }

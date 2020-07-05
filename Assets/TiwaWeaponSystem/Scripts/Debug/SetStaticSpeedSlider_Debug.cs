@@ -11,6 +11,11 @@ public class SetStaticSpeedSlider_Debug : UdonSharpBehaviour
 
     public VelocityEstimator velocityEstimator;
 
+    private void Start()
+    {
+        slider.value = velocityEstimator.staticSpeed;
+    }
+
     private void Update()
     {
         velocityEstimator.staticSpeed = slider.value;
