@@ -10,7 +10,8 @@ public class SwingEstimator : UdonSharpBehaviour
     public GameObject objTip;
     public GameObject objHandle;
 
-    public int velocitySampleFreams = 5; // サンプル数
+    const int velocitySampleFreams = 5; // サンプル数は5で固定
+    const float velocityFactor = 0.2f; // サンプル数は固定なので前もって計算
     public int attackSampleFreams = 5;
 
     // MEMO: 動作確認した結果良い感じだった値をデフォルトにしておく。測定点オブジェクトの位置も同様
@@ -69,7 +70,7 @@ public class SwingEstimator : UdonSharpBehaviour
         {
             velocityTip += velocitySamplesTip[i];
         }
-        velocityTip *= (1.0f / velocitySampleFreams);
+        velocityTip *= velocityFactor;
         velocityScalarTip = velocityTip.sqrMagnitude;
 
         // 静止状態の位置を取得
@@ -91,7 +92,7 @@ public class SwingEstimator : UdonSharpBehaviour
         {
             velocityHandle += velocitySamplesHandle[i];
         }
-        velocityHandle *= (1.0f / velocitySampleFreams);
+        velocityHandle *= velocityFactor;
         velocityScalarHandle = velocityHandle.sqrMagnitude;
 
         // 静止状態の位置を取得
