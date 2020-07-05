@@ -6,77 +6,106 @@ using VRC.Udon;
 
 public class VelocityEstimator : UdonSharpBehaviour
 {
+    public GameObject objTip;
+    public GameObject objHandle;
+
     public int velocitySampleFreams = 5;
     public int attackSampleFreams = 5;
-    public float attackSpeed = 20f;
-    public float attackAccel = 20f;
-    public float staticSpeed = 10f;
-    public float effectiveDist = 5f;
+
+    public float attackSpeedTip = 20f;
+    public float staticSpeedTip = 10f;
+    public float effectiveDistTip = 5f;
+
+    public float attackSpeedHandle = 20f;
+    public float staticSpeedHandle = 10f;
+    public float effectiveDistHandle = 5f;
+
     public GameObject Attacker;
 
-    // できるだけローカル変数を使わない
-    Vector3 prevPosition;
-    Vector3 startPosition;
+    int i;
     int sampleCount;
     int attackSampleCount;
-    int i;
-    Vector3[] velocitySamples;
-    Vector3 velocity;
-    Vector3 acceleration;
-    float velocityScalar;
-    float accelerationScalar;
-    float dist;
+
+    // Tip
+    Vector3 prevPositionTip;
+    Vector3 startPositionTip;
+    Vector3[] velocitySamplesTip;
+    Vector3 velocityTip;
+    float velocityScalarTip;
+    float movingDistTip;
+
+    // Handle
+    Vector3 prevPositionHandle;
+    Vector3 startPositionHandle;
+    Vector3[] velocitySamplesHandle;
+    Vector3 velocityHandle;
+    float velocityScalarHandle;
+    float movingDistHandle;
+
+    // Handle
 
     private void Start()
     {
-        velocitySamples = new Vector3[velocitySampleFreams];
-        prevPosition = transform.position;
+        velocitySamplesTip = new Vector3[velocitySampleFreams];
+        velocitySamplesHandle = new Vector3[velocitySampleFreams];
+        prevPositionTip = objTip.transform.position;
+        prevPositionHandle = objHandle.transform.position;
     }
 
     // 参考: https://github.com/wacki/Unity-VRInputModule/blob/master/Assets/SteamVR/InteractionSystem/Core/Scripts/VelocityEstimator.cs
     private void Update()
     {
-        // 速度取得
         sampleCount++;
-        velocitySamples[sampleCount % velocitySamples.Length] = (1.0f / Time.deltaTime) * (transform.position - prevPosition);
-        prevPosition = transform.position;
 
-        velocity = Vector3.zero;
+        // Tip
+        // 速度取得
+        velocitySamplesTip[sampleCount % velocitySamplesTip.Length] = (1.0f / Time.deltaTime) * (objTip.transform.position - prevPositionTip);
+        prevPositionTip = objTip.transform.position;
+
+        velocityTip = Vector3.zero;
         for (i = 0; i < velocitySampleFreams; i++)
         {
-            velocity += velocitySamples[i];
+            velocityTip += velocitySamplesTip[i];
         }
-        velocity *= (1.0f / velocitySampleFreams);
-        velocityScalar = velocity.sqrMagnitude;
-
-        // 加速度
-        acceleration = Vector3.zero;
-        for (int i = 2 + sampleCount - velocitySamples.Length; i < sampleCount; i++)
-        {
-            if (i >= 2)
-            {
-                int first = i - 2;
-                int second = i - 1;
-
-                Vector3 v1 = velocitySamples[first % velocitySamples.Length];
-                Vector3 v2 = velocitySamples[second % velocitySamples.Length];
-                acceleration += v2 - v1;
-            }
-        }
-        acceleration *= (1.0f / Time.deltaTime);
-        accelerationScalar = acceleration.sqrMagnitude;
+        velocityTip *= (1.0f / velocitySampleFreams);
+        velocityScalarTip = velocityTip.sqrMagnitude;
 
         // 静止状態の位置を取得
-        if (velocityScalar < staticSpeed)
+        if (velocityScalarTip < staticSpeedTip)
         {
-            startPosition = transform.position;
+            startPositionTip = objTip.transform.position;
         }
 
-        dist = (transform.position - startPosition).sqrMagnitude;
+        // 移動距離
+        movingDistTip = (objTip.transform.position - startPositionTip).sqrMagnitude;
+
+        // Handle
+        // 速度取得
+        velocitySamplesHandle[sampleCount % velocitySamplesHandle.Length] = (1.0f / Time.deltaTime) * (objHandle.transform.position - prevPositionHandle);
+        prevPositionHandle = objHandle.transform.position;
+
+        velocityHandle = Vector3.zero;
+        for (i = 0; i < velocitySampleFreams; i++)
+        {
+            velocityHandle += velocitySamplesHandle[i];
+        }
+        velocityHandle *= (1.0f / velocitySampleFreams);
+        velocityScalarHandle = velocityHandle.sqrMagnitude;
+
+        // 静止状態の位置を取得
+        if (velocityScalarHandle < staticSpeedHandle)
+        {
+            startPositionHandle = objHandle.transform.position;
+        }
+
+        // 移動距離
+        movingDistHandle = (objHandle.transform.position - startPositionHandle).sqrMagnitude;
+
         // 速度と加速度と静止状態からの移動距離で判定
-        if (velocityScalar >= attackSpeed &&
-            accelerationScalar >= attackAccel &&
-            effectiveDist <= dist)
+        if (velocityScalarTip >= attackSpeedTip &&
+            velocityScalarHandle >= attackSpeedHandle &&
+            effectiveDistTip <= movingDistTip &&
+            effectiveDistHandle <= movingDistHandle)
         {
             attackSampleCount = 0;
             Attacker.SetActive(true);
@@ -94,35 +123,5 @@ public class VelocityEstimator : UdonSharpBehaviour
                 attackSampleCount++;
             }
         }
-    }
-
-    // デバッグ用
-    public Vector3 GetVelocityEstimate_Debug()
-    {
-        Vector3 velocity = Vector3.zero;
-
-        Debug.Log(velocitySamples[0]);
-        for (int i = 0; i < velocitySampleFreams; i++)
-        {
-            velocity += velocitySamples[i];
-        }
-        velocity *= (1.0f / velocitySampleFreams);
-
-        return velocity;
-    }
-
-    // デバッグ用
-    public float GetDistance_Debug()
-    {
-        Vector3 velocity = Vector3.zero;
-
-        Debug.Log(velocitySamples[0]);
-        for (int i = 0; i < velocitySampleFreams; i++)
-        {
-            velocity += velocitySamples[i];
-        }
-        velocity *= (1.0f / velocitySampleFreams);
-
-        return velocity.sqrMagnitude;
     }
 }

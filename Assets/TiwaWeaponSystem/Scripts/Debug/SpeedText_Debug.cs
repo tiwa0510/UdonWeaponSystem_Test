@@ -7,6 +7,7 @@ using VRC.Udon;
 
 public class SpeedText_Debug : UdonSharpBehaviour
 {
+    public bool isTip;
     Text text;
     public VelocityEstimator velocityEstimator;
 
@@ -19,7 +20,14 @@ public class SpeedText_Debug : UdonSharpBehaviour
     {
         if (Time.time > 1)
         {
-            text.text = velocityEstimator.GetDistance_Debug().ToString();
+            if (isTip)
+            {
+                text.text = ((float)velocityEstimator.GetProgramVariable("velocityScalarTip")).ToString();
+            }
+            else
+            {
+                text.text = ((float)velocityEstimator.GetProgramVariable("velocityScalarHandle")).ToString();
+            }
         }
     }
 }

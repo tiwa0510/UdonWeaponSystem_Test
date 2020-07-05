@@ -6,6 +6,7 @@ using VRC.Udon;
 
 public class SetStaticSpeedSlider_Debug : UdonSharpBehaviour
 {
+    public bool isTip;
     public Slider slider;
     public Text text;
 
@@ -13,12 +14,20 @@ public class SetStaticSpeedSlider_Debug : UdonSharpBehaviour
 
     private void Start()
     {
-        slider.value = velocityEstimator.staticSpeed;
+        slider.value = isTip ? velocityEstimator.staticSpeedTip : velocityEstimator.staticSpeedHandle;
     }
 
     private void Update()
     {
-        velocityEstimator.staticSpeed = slider.value;
-        text.text = velocityEstimator.staticSpeed.ToString();
+        if (isTip)
+        {
+            velocityEstimator.staticSpeedTip = slider.value;
+            text.text = velocityEstimator.staticSpeedTip.ToString();
+        }
+        else
+        {
+            velocityEstimator.staticSpeedHandle = slider.value;
+            text.text = velocityEstimator.staticSpeedHandle.ToString();
+        }
     }
 }

@@ -6,6 +6,7 @@ using VRC.Udon;
 
 public class SetAttackSpeedSlider_Debug : UdonSharpBehaviour
 {
+    public bool isTip;
     public Slider slider;
     public Text text;
 
@@ -13,11 +14,19 @@ public class SetAttackSpeedSlider_Debug : UdonSharpBehaviour
 
     private void Start()
     {
-        slider.value = velocityEstimator.attackSpeed;
+        slider.value = isTip ? velocityEstimator.attackSpeedTip : velocityEstimator.attackSpeedHandle;
     }
     private void Update()
     {
-        velocityEstimator.attackSpeed = slider.value;
-        text.text = velocityEstimator.attackSpeed.ToString();
+        if (isTip)
+        {
+            velocityEstimator.attackSpeedTip = slider.value;
+            text.text = velocityEstimator.attackSpeedTip.ToString();
+        }
+        else
+        {
+            velocityEstimator.attackSpeedHandle = slider.value;
+            text.text = velocityEstimator.attackSpeedHandle.ToString();
+        }
     }
 }
